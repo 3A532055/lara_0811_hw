@@ -10,7 +10,7 @@ class NewsController extends Controller
      */
     public function index()
     {
-        //
+        return view('news');
     }
     /**
      * Show the form for creating a new resource.

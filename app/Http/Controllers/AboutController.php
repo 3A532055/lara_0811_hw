@@ -10,7 +10,7 @@ class AboutController extends Controller
      */
     public function index()
     {
-        //
+        return view('about');
     }
     /**
      * Show the form for creating a new resource.
